@@ -1,0 +1,15 @@
+.searchbar-container {
+    width: 35vw;
+}
+
+.searchbar-form {
+    margin-top: 6px;
+    height: 35px;
+}
+
+.searchbar-input {
+    width: 450px;
+    height: 100%;
+    border: 1px solid #CC0001;
+    border-radius: 20px;
+}

@@ -1,0 +1,33 @@
+/* 
+    Target Red: CC0001 
+    
+*/
+.navbar-container{
+    background-color: #CC0001;
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.navbar-ul {
+    display: inline;
+}
+
+.navbar-list-item {
+    display: inline;
+    margin-right: 10px;
+    font-weight: bold;
+    font-size: large;
+}
+
+.navbar-search-container {
+    width: 50vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.cart-button {
+    margin-right: 40px;
+}
