@@ -1,9 +1,11 @@
 import './SeasonalSection.css'
+import valentinesBanner from '../../public/v-day-image.jpeg';
 
-const SeasonalSection = () => {
+const SeasonalSection = ({ season }) => {
     return(
         <div className='seasonal-container'>
-            <h1>Seasonal items</h1>
+            <img src={valentinesBanner} alt='Valentines banner' />
+            <h1>Season: {season}</h1>
         </div>
     )
 }

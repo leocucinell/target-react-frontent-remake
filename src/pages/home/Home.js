@@ -1,5 +1,7 @@
 import './Home.css'
 
+/* Thrid Party Components */
+
 /* Custom components */
 import Navbar from '../../components/Navbar/Navbar';
 import SeasonalSection from '../../components/SeasonalSection/SeasonalSection';
@@ -14,17 +16,17 @@ import Footer from '../../components/Footer/Footer';
 const Home = () => {
     return (
     <div className="App">
-      <Navbar />
-      <div className='align-page'>
-        <SeasonalSection />
-        <Styles />
-        <Arrivals />
-        <Deals />
-        <Trending />
-        <Categories />
-        <Commitments />
-      </div>
-      <Footer />
+        <Navbar />
+        <div className='align-page'>
+            <SeasonalSection season="Spring" />
+            <Styles />
+            <Arrivals />
+            <Deals />
+            <Trending />
+            <Categories />
+            <Commitments />
+        </div>
+        <Footer />
     </div>
     );
 }
