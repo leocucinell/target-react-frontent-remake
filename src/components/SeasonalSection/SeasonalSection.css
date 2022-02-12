@@ -1,3 +1,21 @@
 .seasonal-container {
+
+}
+
+.seasonal-banner {
+    display: block;
     
+}
+
+.seasonal-image-banner {
+    width: 80%;
+}
+
+.banner-text {
+    display: block;
+    position: relative;
+    bottom: 175px;
+    left: 180px;
+    color: #FFFFFF
+    /* TODO: Make text scale position with screen */
 }

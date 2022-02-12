@@ -1,0 +1,37 @@
+/* 
+    background color: #FAE5CF
+*/
+
+.style-card{
+    background-color: #FAE5CF;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.style-card img {
+    width: 200px;
+    height: 250px;
+    object-fit: cover;
+}
+
+.style-card-info {
+    position: relative;
+}
+.style-card-info h2 {
+    font-weight: bold;
+    position: absolute;
+    bottom: 50px;
+    left: 10px;
+}
+
+.style-card-info span {
+    text-decoration: underline;
+    position: absolute;
+    left: 10px;
+}
+
+.style-card-info h3 {
+    font-size: 2rem;
+    position: relative;
+    bottom: 10px;
+}

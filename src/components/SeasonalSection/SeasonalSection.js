@@ -4,10 +4,12 @@ import valentinesBanner from '../../public/v-day-image.jpeg';
 const SeasonalSection = ({ season }) => {
     return(
         <div className='seasonal-container'>
-            <img src={valentinesBanner} alt='Valentines banner' />
-            <h1>Season: {season}</h1>
+            <div className='seasonal-banner'>
+                <img className='seasonal-image-banner' src={valentinesBanner} alt='Valentines banner' />
+                <span className='banner-text'>Remember to pick up a gift for your loved ones</span>
+            </div>
         </div>
-    )
+    );
 }
 
-export default SeasonalSection
+export default SeasonalSection;
