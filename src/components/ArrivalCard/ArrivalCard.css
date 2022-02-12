@@ -1,0 +1,23 @@
+.card-container {
+    position: relative;
+    
+
+}
+
+.card-container img {
+    width: 240px;
+    height: 250px;
+    object-fit: cover;
+}
+
+.card-banner{
+    position: absolute;
+    background-color: #FAE5CF;
+    bottom: 157px;
+    left: 150px;
+    padding-bottom: 10px;
+}
+
+.card-banner span {
+    font-weight: bold;
+}
